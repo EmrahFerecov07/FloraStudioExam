@@ -1,0 +1,75 @@
+#navbar {
+    z-index: 2;
+    background-color: rgba(16, 99, 78, 0.9);
+    top: 0;
+    position: sticky;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: green;
+
+    .icons {
+        margin-left: 600px;
+
+    }
+
+    .navbox {
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .navleft {
+            .fs {
+                color: white;
+            }
+
+
+        }
+
+        .navmid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            gap: 20px;
+
+
+
+
+
+
+            .navright {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+
+
+
+            }
+
+
+
+        }
+
+    }
+}
+
+
+
+.active {
+    color: white;
+}
+
+a {
+    font-size: 20px;
+    color: white;
+}
+
+a:hover {
+
+    color: orangered;
+}
